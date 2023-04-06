@@ -8,4 +8,4 @@
 #define SERIAL_USART_RX_PIN GP1
 #define DEBOUNCE 5
 
-#define MASTER_RIGHT
+// #define MASTER_RIGHT
