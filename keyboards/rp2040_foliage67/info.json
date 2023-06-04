@@ -1,6 +1,6 @@
 {
     "manufacturer": "hamada",
-    "keyboard_name": "rp2040_breadboard",
+    "keyboard_name": "rp2040_foliage67",
     "maintainer": "hamada",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP15", "GP14", "GP13", "GP12"],
-        "rows": ["GP10", "GP11"]
+        "cols": ["GP21", "GP20", "GP19", "GP18", "GP17", "GP15", "GP16", "GP9"],
+        "rows": ["GP10", "GP11", "GP12", "GP13", "GP14"]
     },
     "processor": "RP2040",
     "url": "",
@@ -24,7 +24,7 @@
         "vid": "0xFEED"
     },
     "layouts": {
-        "LAYOUT_ortho_2x8": {
+        "LAYOUT_ortho_5x8": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [1, 0], "x": 1, "y": 0 },
@@ -41,7 +41,31 @@
                 { "matrix": [4, 1], "x": 4, "y": 1 },
                 { "matrix": [5, 1], "x": 5, "y": 1 },
                 { "matrix": [6, 1], "x": 6, "y": 1 },
-                { "matrix": [7, 1], "x": 7, "y": 1 }
+                { "matrix": [7, 1], "x": 7, "y": 1 },
+                { "matrix": [0, 2], "x": 0, "y": 2 },
+                { "matrix": [1, 2], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [3, 2], "x": 3, "y": 2 },
+                { "matrix": [4, 2], "x": 4, "y": 2 },
+                { "matrix": [5, 2], "x": 5, "y": 2 },
+                { "matrix": [6, 2], "x": 6, "y": 2 },
+                { "matrix": [7, 2], "x": 7, "y": 2 },
+                { "matrix": [0, 3], "x": 0, "y": 3 },
+                { "matrix": [1, 3], "x": 1, "y": 3 },
+                { "matrix": [2, 3], "x": 2, "y": 3 },
+                { "matrix": [3, 3], "x": 3, "y": 3 },
+                { "matrix": [4, 3], "x": 4, "y": 3 },
+                { "matrix": [5, 3], "x": 5, "y": 3 },
+                { "matrix": [6, 3], "x": 6, "y": 3 },
+                { "matrix": [7, 3], "x": 7, "y": 3 },
+                { "matrix": [0, 4], "x": 0, "y": 4 },
+                { "matrix": [1, 4], "x": 1, "y": 4 },
+                { "matrix": [2, 4], "x": 2, "y": 4 },
+                { "matrix": [3, 4], "x": 3, "y": 4 },
+                { "matrix": [4, 4], "x": 4, "y": 4 },
+                { "matrix": [5, 4], "x": 5, "y": 4 },
+                { "matrix": [6, 4], "x": 6, "y": 4 },
+                { "matrix": [7, 4], "x": 7, "y": 4 }
             ]
         }
     }
